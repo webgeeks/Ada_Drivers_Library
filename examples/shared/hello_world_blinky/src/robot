@@ -7,7 +7,7 @@ with serial; use serial;
 with analog; use analog;
 with control; use control;
 
-procedure Robot is
+procedure Blinky is
 
    flt : Short_Float := 0.0;
    Raw : UInt32;
@@ -54,4 +54,4 @@ begin
          delay until Clock + Milliseconds (1000);
       end loop;
       end;
-end Robot;
+end Blinky;
